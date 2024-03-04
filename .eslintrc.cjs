@@ -5,7 +5,7 @@ module.exports = {
   },
   "extends": [
     "standard-with-typescript",
-    "plugin:vue/vue3-essential"
+    "plugin:vue/vue3-essential" // eslint 验证规则
   ],
   "overrides": [
     {
@@ -22,8 +22,8 @@ module.exports = {
   ],
   "parserOptions": {
     "ecmaVersion": "latest",
-    "sourceType": "module",
-    "parser": "@typescript-eslint/parser"
+    "sourceType": "module"
+    // "parser": "@typescript-eslint/parser"
   },
   "plugins": [
     "vue"
